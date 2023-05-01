@@ -56,7 +56,6 @@
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   margin-right: 10px;
-  
 }
 .search-button,
 .voice-search-button {
@@ -67,7 +66,7 @@
   align-items: center;
 }
 .search-button .tooltip,
-.voice-search-button .tooltip{
+.voice-search-button .tooltip {
   position: absolute;
   background-color: rgba(93, 93, 93, 0.926);
   color: white;
@@ -87,7 +86,6 @@
 
 .search-icon {
   height: 24px;
-
 }
 .voice-search-button {
   height: 40px;
@@ -126,7 +124,7 @@
   right: -5px;
   color: white;
   font-size: 11px;
-  background-color: rgb(208, 0, 0);
+  background-color: rgb(204, 0, 0);
   border-radius: 10px;
   padding: 2px 5px;
 }
