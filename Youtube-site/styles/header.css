@@ -58,7 +58,9 @@
   margin-right: 10px;
 }
 .search-button,
-.voice-search-button {
+.voice-search-button,
+.upload-icon-container
+{
   position: relative;
   cursor: pointer;
   display: flex;
@@ -66,7 +68,8 @@
   align-items: center;
 }
 .search-button .tooltip,
-.voice-search-button .tooltip {
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip {
   position: absolute;
   background-color: rgba(93, 93, 93, 0.926);
   color: white;
@@ -80,7 +83,8 @@
   white-space: nowrap;
 }
 .search-button:hover .tooltip,
-.voice-search-button:hover .tooltip {
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip {
   opacity: 1;
 }
 
@@ -92,7 +96,7 @@
   width: 40px;
   border-radius: 20px;
   border: none;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
 }
 .voice-search-icon {
   height: 24px;
