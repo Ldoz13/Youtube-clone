@@ -59,8 +59,7 @@
 }
 .search-button,
 .voice-search-button,
-.upload-icon-container
-{
+.upload-icon-container {
   position: relative;
   cursor: pointer;
   display: flex;
